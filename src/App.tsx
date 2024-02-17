@@ -1,3 +1,4 @@
+
 import { useWalletModal } from '@solana/wallet-adapter-react-ui'
 import { useTransactionError } from 'gamba-react-v2'
 import React from 'react'
@@ -62,3 +63,4 @@ export default function App() {
     </>
   )
 }
+

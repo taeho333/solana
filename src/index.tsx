@@ -1,3 +1,5 @@
+
+
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react'
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
 import '@solana/wallet-adapter-react-ui/styles.css'
@@ -50,3 +52,4 @@ function Root() {
 }
 
 root.render(<Root />)
+
