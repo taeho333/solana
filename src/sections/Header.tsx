@@ -60,7 +60,7 @@ export default function Header() {
 
   return (
     <>
-      {/* {bonusHelp && (
+      {bonusHelp && (
         <Modal onClose={() => setBonusHelp(false)}>
           <h1>You have a bonus!</h1>
           <p>
@@ -69,7 +69,9 @@ export default function Header() {
           </p>
         </Modal>
       )}
-      {jackpotHelp && (
+
+
+      {/* {jackpotHelp && (
         <Modal onClose={() => setJackpotHelp(false)}>
           <h1>Jackpot</h1>
           <p>There{'\''}s <TokenValue amount={pool.jackpotBalance} /> in the Jackpot.</p>
@@ -77,18 +79,18 @@ export default function Header() {
       )} */}
 
 
-      {/* <StyledHeader>
+      <StyledHeader>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <Logo to="/">
             <img alt="Gamba logo" src="/logo.svg" />
           </Logo>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>
-          {pool.jackpotBalance > 0 && (
+          {/* {pool.jackpotBalance > 0 && (
             <Bonus onClick={() => setJackpotHelp(true)}>
               <TokenValue amount={pool.jackpotBalance} />
             </Bonus>
-          )}
+          )} */}
 
           {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
@@ -98,7 +100,7 @@ export default function Header() {
           <TokenSelect />
           <UserButton />
         </div>
-      </StyledHeader> */}
+      </StyledHeader>
     </>
   )
 }
