@@ -53,9 +53,8 @@ export default function App() {
 <ScrollToTop />
       <ErrorHandler />
       <Header />
-      <Toasts />
 
-<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet</h2>
+<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 222</h2>
 
 
 
