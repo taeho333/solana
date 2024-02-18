@@ -47,7 +47,7 @@ const Logo = styled(NavLink)`
 `
 
 export default function Header() {
-  //const pool = useCurrentPool() //devnet관련 오류발생
+  const pool = useCurrentPool() //devnet관련 오류발생
   const balance = useUserBalance()
   const [bonusHelp, setBonusHelp] = React.useState(false)
   const [jackpotHelp, setJackpotHelp] = React.useState(false)
