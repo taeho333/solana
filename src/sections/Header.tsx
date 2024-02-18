@@ -47,10 +47,10 @@ const Logo = styled(NavLink)`
 `
 
 export default function Header() {
-  const pool = useCurrentPool()
-  const balance = useUserBalance()
-  const [bonusHelp, setBonusHelp] = React.useState(false)
-  const [jackpotHelp, setJackpotHelp] = React.useState(false)
+  // const pool = useCurrentPool()
+  // const balance = useUserBalance()
+  // const [bonusHelp, setBonusHelp] = React.useState(false)
+  // const [jackpotHelp, setJackpotHelp] = React.useState(false)
 
   return (
     <>
@@ -70,7 +70,7 @@ export default function Header() {
         </Modal>
       )} */}
 
-      
+
       {/* <StyledHeader>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <Logo to="/">
