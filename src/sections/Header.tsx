@@ -54,7 +54,7 @@ export default function Header() {
 
   return (
     <>
-      {bonusHelp && (
+      {/* {bonusHelp && (
         <Modal onClose={() => setBonusHelp(false)}>
           <h1>You have a bonus!</h1>
           <p>
@@ -68,7 +68,7 @@ export default function Header() {
           <h1>Jackpot</h1>
           <p>There{'\''}s <TokenValue amount={pool.jackpotBalance} /> in the Jackpot.</p>
         </Modal>
-      )}
+      )} */}
       <StyledHeader>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <Logo to="/">
@@ -81,7 +81,7 @@ export default function Header() {
               <TokenValue amount={pool.jackpotBalance} />
             </Bonus>
           )} */}
-          
+
           {/* {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
               +<TokenValue amount={balance.bonusBalance} />
