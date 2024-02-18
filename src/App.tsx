@@ -51,11 +51,12 @@ export default function App() {
 
 
 <ScrollToTop />
-      <ErrorHandler />
+
+
+<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 333</h2>
+
+<ErrorHandler />
       <Header />
-
-<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 222</h2>
-
 
 
       {/* <ScrollToTop />
