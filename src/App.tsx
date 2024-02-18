@@ -53,10 +53,10 @@ export default function App() {
       <Header />
       <Toasts />
       <StyledSection>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/:gameId" element={<Game />} />
-        </Routes>
+        </Routes> */}
         <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
         <RecentPlays />
       </StyledSection>
