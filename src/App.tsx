@@ -57,7 +57,7 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/:gameId" element={<Game />} />
         </Routes>
-        <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo devnet</h2>
+        <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
         <RecentPlays />
       </StyledSection>
     </>
