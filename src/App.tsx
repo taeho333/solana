@@ -49,7 +49,13 @@ export default function App() {
   return (
     <>
 
-<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
+
+<ScrollToTop />
+      <ErrorHandler />
+      <Header />
+      <Toasts />
+
+<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet</h2>
 
 
 
