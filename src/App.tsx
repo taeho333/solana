@@ -54,7 +54,7 @@ export default function App() {
 <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 333</h2>
 
 <ErrorHandler />
-      <Header />
+
 
 
       {/* <ScrollToTop />
