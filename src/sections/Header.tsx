@@ -76,11 +76,12 @@ export default function Header() {
           </Logo>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>
-          {pool.jackpotBalance > 0 && (
+          {/* {pool.jackpotBalance > 0 && (
             <Bonus onClick={() => setJackpotHelp(true)}>
               <TokenValue amount={pool.jackpotBalance} />
             </Bonus>
-          )}
+          )} */}
+          
           {/* {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
               +<TokenValue amount={balance.bonusBalance} />
