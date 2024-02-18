@@ -58,7 +58,8 @@ export default function Header() {
         <Modal onClose={() => setBonusHelp(false)}>
           <h1>You have a bonus!</h1>
           <p>
-            You have <b><TokenValue amount={balance.bonusBalance} /></b> worth of free plays. This bonus will be applied automatically when you play.
+            You have <b><TokenValue amount={balance.bonusBalance} /></b> 
+            worth of free plays. This bonus will be applied automatically when you play.
           </p>
         </Modal>
       )}
@@ -80,13 +81,13 @@ export default function Header() {
               <TokenValue amount={pool.jackpotBalance} />
             </Bonus>
           )}
-          {balance.bonusBalance > 0 && (
+          {/* {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
               +<TokenValue amount={balance.bonusBalance} />
             </Bonus>
           )}
           <TokenSelect />
-          <UserButton />
+          <UserButton /> */}
         </div>
       </StyledHeader>
     </>
