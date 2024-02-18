@@ -48,18 +48,23 @@ function ErrorHandler() {
 export default function App() {
   return (
     <>
-      <ScrollToTop />
+
+<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
+
+
+
+      {/* <ScrollToTop />
       <ErrorHandler />
       <Header />
       <Toasts />
       <StyledSection>
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/:gameId" element={<Game />} />
-        </Routes> */}
+        </Routes>
         <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
-        {/* <RecentPlays /> */}
-      </StyledSection>
+        <RecentPlays />
+      </StyledSection> */}
     </>
   )
 }
