@@ -50,9 +50,9 @@ export default function Header() {
   //const pool = useCurrentPool() //devnet관련 오류발생
   const balance = useUserBalance()
 
-  console.log("balance-=-=-=-=-=-=-=")
+  console.log("balance1-=-=-=-=-=-=-=")
   console.log(balance)
-  console.log("balance-=-=-=-=-=-=-=")
+  console.log("balance2-=-=-=-=-=-=-=")
 
 
   const [bonusHelp, setBonusHelp] = React.useState(false)
