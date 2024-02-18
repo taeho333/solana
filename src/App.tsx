@@ -51,24 +51,19 @@ export default function App() {
 
 
 
-<h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 333</h2>
 
-<ErrorHandler />
-
-
-
-      {/* <ScrollToTop />
+      <ScrollToTop />
       <ErrorHandler />
-      <Header />
+      {/* <Header /> */}
       <Toasts />
       <StyledSection>
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/:gameId" element={<Game />} />
         </Routes>
-        <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - mainnet</h2>
+        <h2 style={{ textAlign: 'center' }}>Recent Play:DongWoo - devnet 222</h2>
         <RecentPlays />
-      </StyledSection> */}
+      </StyledSection>
     </>
   )
 }
