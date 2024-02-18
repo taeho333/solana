@@ -47,7 +47,7 @@ const Logo = styled(NavLink)`
 `
 
 export default function Header() {
-  //const pool = useCurrentPool() //devnet관련 오류발생
+  const pool = useCurrentPool() //devnet관련 오류발생
   const balance = useUserBalance()
 
   console.log("balance1-=-=-=-=-=-=-=")
@@ -71,12 +71,12 @@ export default function Header() {
       )}
 
 
-      {/* {jackpotHelp && (
+      {jackpotHelp && (
         <Modal onClose={() => setJackpotHelp(false)}>
           <h1>Jackpot</h1>
           <p>There{'\''}s <TokenValue amount={pool.jackpotBalance} /> in the Jackpot.</p>
         </Modal>
-      )} */}
+      )}
 
 
       <StyledHeader>
@@ -86,11 +86,11 @@ export default function Header() {
           </Logo>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>
-          {/* {pool.jackpotBalance > 0 && (
+          {pool.jackpotBalance > 0 && (
             <Bonus onClick={() => setJackpotHelp(true)}>
               <TokenValue amount={pool.jackpotBalance} />
             </Bonus>
-          )} */}
+          )}
 
           {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
