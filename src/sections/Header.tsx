@@ -47,7 +47,7 @@ const Logo = styled(NavLink)`
 `
 
 export default function Header() {
-  // const pool = useCurrentPool()
+  const pool = useCurrentPool()
   const balance = useUserBalance()
   // const [bonusHelp, setBonusHelp] = React.useState(false)
   // const [jackpotHelp, setJackpotHelp] = React.useState(false)
